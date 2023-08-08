@@ -21,6 +21,8 @@ Spring Initializer [Spring Initializer](https://start.spring.io/)
 - You can go to `Application.java` and click the `run` button above your main method
 - You can go to the top of your VSCODE and click `Run -> Run Without Debugging`
 - You can click the little `Play` button you may see in the top right of your VSCODE
+- Go to your browser, type `http://localhost:8080/api/tasks` to preform an HTTP `GET` Request. If everything works you should see an empty array returned `[]`
+- From the browser, you will only be allowed to perform `GET` requests. If you want to use `POSTS` and `PUTS` you will need to setup Postman. You can google around to find documentation for setting up Postman, but we will cover it in class as well.
 
 ## Issues you may run into
 - If you stop the application (there will be a stop button in the top right corner), your database will be blown out
